@@ -1,3 +1,8 @@
+.inversebox {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .header {
     display: flex;
     background-color: lightblue;
@@ -91,15 +96,79 @@
 
 }
 
-.secondbox {
+.secondandfourthbox {
     display: flex;
+    justify-content: center;
     align-self: center;
-    width: 800px;
-    height: 340px;
+    width: 1550px;
+    height: 400px;
 
 }
 
 .bodybox1 {
+    display: flex;
+    background-color: rgb(15, 63, 255);
+    border: 1px dotted black;
+    align-self: center;
+    width: 500px;
+    height: 340px;
+}
 
+.bodybox2 {
+    display: flex;
+    background-color: pink;
+    border: 1px dotted black;
+    align-self: center;
+    width: 300px;
+    height: 340px;
+
+}
+
+.thirdbox {
+    display: flex;
+    margin: 0 30px 0 -10px;
+    background-color: gray;
+    justify-content: center;
+    align-self: center;
+    width: 1550px;
+    height: 400px;
+
+}
+
+
+.bodybox3 {
+    display: flex;
+    background-color: rgb(15, 63, 255);
+    border: 1px dotted black;
+    align-self: center;
+    width: 500px;
+    height: 340px;
+}
+
+.bodybox4 {
+    display: flex;
+    background-color: pink;
+    border: 1px dotted black;
+    align-self: center;
+    width: 300px;
+    height: 340px;
+
+}
+
+.fifthbox {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    width: 1550px;
+    height: 400px;
+}
+
+.bodybox5 {
+    display: flex;
+    background-color: green;
+    border: 1px dotted black;
+    width: 800px;
+    height: 340px;
 }
 
